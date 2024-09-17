@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel = "stylesheet" href="List.css">
+</head>
+<body>             
+        <div class="container">
+            <h1 class="heading">To-Do List APP</h1>
+            <div class="todo-app">
+                <h2 class="title">What's the plan for today?</h2>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter a new task" id="input-task">
+                    <button id="add-task"><i class="fa-solid fa-plus"></i></button> 
+                </div>
+                <ul class="task-list"></ul>
+                <div class="actions">
+                    <button id="clear-all">Clear All</button>
+                    <button id="clear-all">Edit existing tasks</button>
+                    <div class="task-count">
+                        <span class="completed-count">0</span> Completed out of <span class="total-count">0</span> tasks
+                    </div>
+                </div>
+            </div>
+            <div class="main-section">
+                <div class="box">
+                    <div class="box-content">
+                        <h2 style="text-align: center">0</h2>
+                        <h3 style="text-align: center">Total Tasks</h3>
+                        <p style="text-align: center">Number of tasks you have created</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2 style="text-align: center">0</h2>
+                        <h3 style="text-align: center">Remaining Tasks</h3>
+                        <p style="text-align: center">Task remaining to complete</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2 style="text-align: center">0</h2>
+                        <h3 style="text-align: center">Completed Tasks</h3>
+                        <p style="text-align: center">Total Number of tasks completed</p>
+                    </div>
+                </div>
+            </div>
+            <script src="app.js"></script>
+    <!-- <div class="main-section">
+        <div class="box">
+            <div class="box-content">
+                <h2 style="text-align: center">0</h2>
+                <h3 style="text-align: center">Total Tasks</h3>
+                <p style="text-align: center">Number of tasks you have created</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="box-content">
+                <h2 style="text-align: center">0</h2>
+                <h3 style="text-align: center">Remaining Tasks</h3>
+                <p style="text-align: center">Task remaining to complete</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="box-content">
+                <h2 style="text-align: center">0</h2>
+                <h3 style="text-align: center">Completed Tasks</h3>
+                <p style="text-align: center">Total Number of tasks completed</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-content1">
+            <h2>Add a new task</h2>
+        </div>
+        <div class="main-content2">
+            <h2>Edit existing tasks</h2>
+        </div>
+        <div class="main-content3">
+            <h2>Delete tasks</h2>
+        </div>
+    </div>
+    <div class="search">
+        <input placeholder="Search" class="search-input">
+    </div> -->
+</body>
+</html>
